@@ -195,6 +195,33 @@ catalogoProdutos.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoProdutos.c.s
 .PHONY : catalogoProdutos.c.s
 
+catalogoVendas.obj: catalogoVendas.c.obj
+
+.PHONY : catalogoVendas.obj
+
+# target to build an object file
+catalogoVendas.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj
+.PHONY : catalogoVendas.c.obj
+
+catalogoVendas.i: catalogoVendas.c.i
+
+.PHONY : catalogoVendas.i
+
+# target to preprocess a source file
+catalogoVendas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.i
+.PHONY : catalogoVendas.c.i
+
+catalogoVendas.s: catalogoVendas.c.s
+
+.PHONY : catalogoVendas.s
+
+# target to generate assembly for a file
+catalogoVendas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.s
+.PHONY : catalogoVendas.c.s
+
 cliente.obj: cliente.c.obj
 
 .PHONY : cliente.obj
@@ -330,6 +357,33 @@ produto.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/produto.c.s
 .PHONY : produto.c.s
 
+venda.obj: venda.c.obj
+
+.PHONY : venda.obj
+
+# target to build an object file
+venda.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/venda.c.obj
+.PHONY : venda.c.obj
+
+venda.i: venda.c.i
+
+.PHONY : venda.i
+
+# target to preprocess a source file
+venda.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/venda.c.i
+.PHONY : venda.c.i
+
+venda.s: venda.c.s
+
+.PHONY : venda.s
+
+# target to generate assembly for a file
+venda.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/venda.c.s
+.PHONY : venda.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -345,6 +399,9 @@ help:
 	@echo ... catalogoProdutos.obj
 	@echo ... catalogoProdutos.i
 	@echo ... catalogoProdutos.s
+	@echo ... catalogoVendas.obj
+	@echo ... catalogoVendas.i
+	@echo ... catalogoVendas.s
 	@echo ... cliente.obj
 	@echo ... cliente.i
 	@echo ... cliente.s
@@ -360,6 +417,9 @@ help:
 	@echo ... produto.obj
 	@echo ... produto.i
 	@echo ... produto.s
+	@echo ... venda.obj
+	@echo ... venda.i
+	@echo ... venda.s
 .PHONY : help
 
 

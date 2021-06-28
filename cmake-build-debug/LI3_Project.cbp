@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h">
 			<Option target="LI3_Project"/>
 		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoVendas.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoVendas.h">
+			<Option target="LI3_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.c">
 			<Option target="LI3_Project"/>
 		</Unit>
@@ -111,6 +117,12 @@
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/venda.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/venda.h">
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/CMakeLists.txt">

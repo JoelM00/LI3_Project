@@ -11,5 +11,6 @@ int leClientes(Estado e, char *ficheiro);
 
 int leProdutos(Estado e, char *ficheiro);
 
+int leVendas(Estado e, char *ficheiro);
 
 #endif //LI3_PROJECT_LEITOR_H

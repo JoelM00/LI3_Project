@@ -6,6 +6,6 @@ Cliente initCliente() {
     return c;
 }
 
-void setCodCli(Cliente c, char *codigo) {
+void setCli(Cliente c, char *codigo) {
     c->codigo = strdup(codigo);
 }

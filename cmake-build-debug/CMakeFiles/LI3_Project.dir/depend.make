@@ -9,31 +9,44 @@ CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj: ../catalogoProdutos.c
 CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj: ../catalogoProdutos.h
 CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj: ../produto.h
 
+CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj: ../catalogoVendas.c
+CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj: ../catalogoVendas.h
+CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj: ../venda.h
+
 CMakeFiles/LI3_Project.dir/cliente.c.obj: ../cliente.c
 CMakeFiles/LI3_Project.dir/cliente.c.obj: ../cliente.h
 
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../catalogoClientes.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../catalogoProdutos.h
+CMakeFiles/LI3_Project.dir/estado.c.obj: ../catalogoVendas.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../estado.c
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../produto.h
+CMakeFiles/LI3_Project.dir/estado.c.obj: ../venda.h
 
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../catalogoClientes.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../catalogoProdutos.h
+CMakeFiles/LI3_Project.dir/leitor.c.obj: ../catalogoVendas.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../leitor.c
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../produto.h
+CMakeFiles/LI3_Project.dir/leitor.c.obj: ../venda.h
 
 CMakeFiles/LI3_Project.dir/main.c.obj: ../catalogoClientes.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../catalogoProdutos.h
+CMakeFiles/LI3_Project.dir/main.c.obj: ../catalogoVendas.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../leitor.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../main.c
 CMakeFiles/LI3_Project.dir/main.c.obj: ../produto.h
+CMakeFiles/LI3_Project.dir/main.c.obj: ../venda.h
 
 CMakeFiles/LI3_Project.dir/produto.c.obj: ../produto.c
 CMakeFiles/LI3_Project.dir/produto.c.obj: ../produto.h
+
+CMakeFiles/LI3_Project.dir/venda.c.obj: ../venda.c
+CMakeFiles/LI3_Project.dir/venda.c.obj: ../venda.h
 

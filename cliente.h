@@ -12,7 +12,7 @@ typedef struct cliente {
     char *codigo;
 } *Cliente;
 
-void setCodCli(Cliente p, char *codigo);
+void setCli(Cliente p, char *codigo);
 
 Cliente initCliente();
 

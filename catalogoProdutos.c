@@ -1,7 +1,3 @@
-//
-// Created by Joel on 28/06/2021.
-//
-
 #include <stdio.h>
 #include "catalogoProdutos.h"
 
@@ -14,7 +10,7 @@ CatalogoProdutos initCatProd() {
 
 void addProduto(CatalogoProdutos c, Produto p) {
     c->produtos[c->totalProdutos] = malloc(sizeof(Produto));
-    c->produtos[c->totalProdutos]->codigo = p->codigo;
+    c->produtos[c->totalProdutos] = p;
     c->totalProdutos++;
 }
 

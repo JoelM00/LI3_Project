@@ -13,7 +13,7 @@ typedef struct produto {
     char *codigo;
 } *Produto;
 
-void setCodProd(Produto p, char *codigo);
+void setProd(Produto p, char *codigo);
 
 Produto initProduto();
 

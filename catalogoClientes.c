@@ -12,10 +12,10 @@ CatalogoClientes initCatCli() {
     return c;
 }
 
-void addCliente(CatalogoClientes c, Cliente p) {
-    c->clientes[c->totalClientes] = malloc(sizeof(Cliente));
-    c->clientes[c->totalClientes]->codigo = p->codigo;
-    c->totalClientes++;
+void addCliente(CatalogoClientes cc, Cliente c) {
+    cc->clientes[cc->totalClientes] = malloc(sizeof(Cliente));
+    cc->clientes[cc->totalClientes] = c;
+    cc->totalClientes++;
 }
 
 void mostraClientes(CatalogoClientes c) {

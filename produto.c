@@ -6,6 +6,6 @@ Produto initProduto() {
     return p;
 }
 
-void setCodProd(Produto p, char *codigo) {
+void setProd(Produto p, char *codigo) {
     p->codigo = strdup(codigo);
 }
