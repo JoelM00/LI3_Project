@@ -5,17 +5,23 @@
 #ifndef LI3_PROJECT_ESTADO_H
 #define LI3_PROJECT_ESTADO_H
 
-#include "listaProdutos.h"
+#include "catalogoProdutos.h"
+#include "catalogoClientes.h"
 
 typedef struct estado {
-    ListaProdutos prodList;
+    CatalogoProdutos catProd;
+    CatalogoClientes catCli;
 } *Estado;
-
 
 Estado initEstado();
 
 void mostraEstadoProd(Estado e);
 
+void mostraEstadoCli(Estado e);
+
 void addEstadoProd(Estado e, Produto p);
+
+void addEstadoCli(Estado e, Cliente c);
+
 
 #endif //LI3_PROJECT_ESTADO_H

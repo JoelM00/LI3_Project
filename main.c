@@ -1,18 +1,22 @@
 #include <stdio.h>
 #include "produto.h"
 #include "estado.h"
+#include "leitor.h"
 
 int main() {
 
-    Estado e = initEstado();
-    char *cod = "ola ma frend!";
-    Produto p = initProduto();
-    setCodProd(p,cod);
+    char *clientes = "..\\dados\\Clientes.txt";
+    char *produtos = "..\\dados\\Produtos.txt";
 
-    for (int i = 0; i<10; i++)
-        addEstadoProd(e,p);
+    Estado e = initEstado();
+
+    leClientes(e,clientes);
+    leProdutos(e,produtos);
+
+    mostraEstadoCli(e);
 
     mostraEstadoProd(e);
+
 
     return 0;
 }

@@ -1,4 +1,11 @@
-//
-// Created by Joel on 28/06/2021.
-//
+#include <stdio.h>
+#include "cliente.h"
 
+Cliente initCliente() {
+    Cliente c = malloc(sizeof(struct cliente));
+    return c;
+}
+
+void setCodCli(Cliente c, char *codigo) {
+    c->codigo = strdup(codigo);
+}

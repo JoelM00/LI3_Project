@@ -17,6 +17,4 @@ void setCodProd(Produto p, char *codigo);
 
 Produto initProduto();
 
-
-
 #endif //LI3_PROJECT_PRODUTO_H

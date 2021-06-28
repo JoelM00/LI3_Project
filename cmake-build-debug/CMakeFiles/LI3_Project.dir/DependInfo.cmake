@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoClientes.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/catalogoClientes.c.obj"
+  "C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj"
   "C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/cliente.c.obj"
   "C:/Users/Joel/Documents/GitHub/LI3_Project/estado.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/estado.c.obj"
   "C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/leitor.c.obj"
-  "C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/listaProdutos.c.obj"
   "C:/Users/Joel/Documents/GitHub/LI3_Project/main.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/main.c.obj"
   "C:/Users/Joel/Documents/GitHub/LI3_Project/produto.c" "C:/Users/Joel/Documents/GitHub/LI3_Project/cmake-build-debug/CMakeFiles/LI3_Project.dir/produto.c.obj"
   )

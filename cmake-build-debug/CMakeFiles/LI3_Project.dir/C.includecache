@@ -6,15 +6,51 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.c
-stdio.h
--
-listaProdutos.h
-C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoClientes.h
+cliente.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.h
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h
 produto.h
 C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.h
+malloc.h
+-
+string.h
+-
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.c
+stdio.h
+-
+estado.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h
+catalogoProdutos.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h
+catalogoClientes.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoClientes.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.c
+stdio.h
+-
+estado.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.h
+estado.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/main.c
+stdio.h
+-
+produto.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+estado.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h
+leitor.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.h
 
 C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
 malloc.h

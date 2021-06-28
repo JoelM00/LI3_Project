@@ -74,6 +74,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoClientes.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoClientes.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h">
+			<Option target="LI3_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.c">
 			<Option target="LI3_Project"/>
 		</Unit>
@@ -90,12 +102,6 @@
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.h">
-			<Option target="LI3_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.c">
-			<Option target="LI3_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h">
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/main.c">

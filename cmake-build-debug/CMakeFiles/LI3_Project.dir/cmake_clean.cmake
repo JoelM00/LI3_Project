@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LI3_Project.dir/catalogoClientes.c.obj"
+  "CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj"
   "CMakeFiles/LI3_Project.dir/cliente.c.obj"
   "CMakeFiles/LI3_Project.dir/estado.c.obj"
   "CMakeFiles/LI3_Project.dir/leitor.c.obj"
-  "CMakeFiles/LI3_Project.dir/listaProdutos.c.obj"
   "CMakeFiles/LI3_Project.dir/main.c.obj"
   "CMakeFiles/LI3_Project.dir/produto.c.obj"
   "LI3_Project.exe"

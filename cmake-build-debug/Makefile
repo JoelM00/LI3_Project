@@ -141,6 +141,60 @@ LI3_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/build
 .PHONY : LI3_Project/fast
 
+catalogoClientes.obj: catalogoClientes.c.obj
+
+.PHONY : catalogoClientes.obj
+
+# target to build an object file
+catalogoClientes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoClientes.c.obj
+.PHONY : catalogoClientes.c.obj
+
+catalogoClientes.i: catalogoClientes.c.i
+
+.PHONY : catalogoClientes.i
+
+# target to preprocess a source file
+catalogoClientes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoClientes.c.i
+.PHONY : catalogoClientes.c.i
+
+catalogoClientes.s: catalogoClientes.c.s
+
+.PHONY : catalogoClientes.s
+
+# target to generate assembly for a file
+catalogoClientes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoClientes.c.s
+.PHONY : catalogoClientes.c.s
+
+catalogoProdutos.obj: catalogoProdutos.c.obj
+
+.PHONY : catalogoProdutos.obj
+
+# target to build an object file
+catalogoProdutos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj
+.PHONY : catalogoProdutos.c.obj
+
+catalogoProdutos.i: catalogoProdutos.c.i
+
+.PHONY : catalogoProdutos.i
+
+# target to preprocess a source file
+catalogoProdutos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoProdutos.c.i
+.PHONY : catalogoProdutos.c.i
+
+catalogoProdutos.s: catalogoProdutos.c.s
+
+.PHONY : catalogoProdutos.s
+
+# target to generate assembly for a file
+catalogoProdutos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoProdutos.c.s
+.PHONY : catalogoProdutos.c.s
+
 cliente.obj: cliente.c.obj
 
 .PHONY : cliente.obj
@@ -222,33 +276,6 @@ leitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/leitor.c.s
 .PHONY : leitor.c.s
 
-listaProdutos.obj: listaProdutos.c.obj
-
-.PHONY : listaProdutos.obj
-
-# target to build an object file
-listaProdutos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.obj
-.PHONY : listaProdutos.c.obj
-
-listaProdutos.i: listaProdutos.c.i
-
-.PHONY : listaProdutos.i
-
-# target to preprocess a source file
-listaProdutos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.i
-.PHONY : listaProdutos.c.i
-
-listaProdutos.s: listaProdutos.c.s
-
-.PHONY : listaProdutos.s
-
-# target to generate assembly for a file
-listaProdutos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.s
-.PHONY : listaProdutos.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -312,6 +339,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LI3_Project
+	@echo ... catalogoClientes.obj
+	@echo ... catalogoClientes.i
+	@echo ... catalogoClientes.s
+	@echo ... catalogoProdutos.obj
+	@echo ... catalogoProdutos.i
+	@echo ... catalogoProdutos.s
 	@echo ... cliente.obj
 	@echo ... cliente.i
 	@echo ... cliente.s
@@ -321,9 +354,6 @@ help:
 	@echo ... leitor.obj
 	@echo ... leitor.i
 	@echo ... leitor.s
-	@echo ... listaProdutos.obj
-	@echo ... listaProdutos.i
-	@echo ... listaProdutos.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
