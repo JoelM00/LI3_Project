@@ -92,12 +92,12 @@ clean: CMakeFiles/LI3_Project.dir/clean
 CMakeFiles/LI3_Project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LI3_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target LI3_Project"
 .PHONY : CMakeFiles/LI3_Project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LI3_Project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LI3_Project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/LI3_Project.dir/rule

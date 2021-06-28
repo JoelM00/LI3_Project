@@ -88,19 +88,94 @@ CMakeFiles/LI3_Project.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\main.c -o CMakeFiles\LI3_Project.dir\main.c.s
 
+CMakeFiles/LI3_Project.dir/leitor.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/leitor.c.obj: ../leitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LI3_Project.dir/leitor.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\leitor.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\leitor.c
+
+CMakeFiles/LI3_Project.dir/leitor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/leitor.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\leitor.c > CMakeFiles\LI3_Project.dir\leitor.c.i
+
+CMakeFiles/LI3_Project.dir/leitor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/leitor.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\leitor.c -o CMakeFiles\LI3_Project.dir\leitor.c.s
+
+CMakeFiles/LI3_Project.dir/produto.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/produto.c.obj: ../produto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LI3_Project.dir/produto.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\produto.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\produto.c
+
+CMakeFiles/LI3_Project.dir/produto.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/produto.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\produto.c > CMakeFiles\LI3_Project.dir\produto.c.i
+
+CMakeFiles/LI3_Project.dir/produto.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/produto.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\produto.c -o CMakeFiles\LI3_Project.dir\produto.c.s
+
+CMakeFiles/LI3_Project.dir/cliente.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/cliente.c.obj: ../cliente.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LI3_Project.dir/cliente.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\cliente.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\cliente.c
+
+CMakeFiles/LI3_Project.dir/cliente.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/cliente.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\cliente.c > CMakeFiles\LI3_Project.dir\cliente.c.i
+
+CMakeFiles/LI3_Project.dir/cliente.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/cliente.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\cliente.c -o CMakeFiles\LI3_Project.dir\cliente.c.s
+
+CMakeFiles/LI3_Project.dir/estado.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/estado.c.obj: ../estado.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LI3_Project.dir/estado.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\estado.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\estado.c
+
+CMakeFiles/LI3_Project.dir/estado.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/estado.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\estado.c > CMakeFiles\LI3_Project.dir\estado.c.i
+
+CMakeFiles/LI3_Project.dir/estado.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/estado.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\estado.c -o CMakeFiles\LI3_Project.dir\estado.c.s
+
+CMakeFiles/LI3_Project.dir/listaProdutos.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/listaProdutos.c.obj: ../listaProdutos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LI3_Project.dir/listaProdutos.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\listaProdutos.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\listaProdutos.c
+
+CMakeFiles/LI3_Project.dir/listaProdutos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/listaProdutos.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\listaProdutos.c > CMakeFiles\LI3_Project.dir\listaProdutos.c.i
+
+CMakeFiles/LI3_Project.dir/listaProdutos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/listaProdutos.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\listaProdutos.c -o CMakeFiles\LI3_Project.dir\listaProdutos.c.s
+
 # Object files for target LI3_Project
 LI3_Project_OBJECTS = \
-"CMakeFiles/LI3_Project.dir/main.c.obj"
+"CMakeFiles/LI3_Project.dir/main.c.obj" \
+"CMakeFiles/LI3_Project.dir/leitor.c.obj" \
+"CMakeFiles/LI3_Project.dir/produto.c.obj" \
+"CMakeFiles/LI3_Project.dir/cliente.c.obj" \
+"CMakeFiles/LI3_Project.dir/estado.c.obj" \
+"CMakeFiles/LI3_Project.dir/listaProdutos.c.obj"
 
 # External object files for target LI3_Project
 LI3_Project_EXTERNAL_OBJECTS =
 
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/main.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/leitor.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/produto.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/cliente.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/estado.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/listaProdutos.c.obj
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/build.make
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/linklibs.rsp
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/objects1.rsp
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LI3_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable LI3_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LI3_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

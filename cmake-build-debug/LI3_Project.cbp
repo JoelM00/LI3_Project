@@ -74,7 +74,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/estado.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h">
+			<Option target="LI3_Project"/>
+		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/main.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/produto.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h">
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/CMakeLists.txt">

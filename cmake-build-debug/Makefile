@@ -141,6 +141,114 @@ LI3_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/build
 .PHONY : LI3_Project/fast
 
+cliente.obj: cliente.c.obj
+
+.PHONY : cliente.obj
+
+# target to build an object file
+cliente.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/cliente.c.obj
+.PHONY : cliente.c.obj
+
+cliente.i: cliente.c.i
+
+.PHONY : cliente.i
+
+# target to preprocess a source file
+cliente.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/cliente.c.i
+.PHONY : cliente.c.i
+
+cliente.s: cliente.c.s
+
+.PHONY : cliente.s
+
+# target to generate assembly for a file
+cliente.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/cliente.c.s
+.PHONY : cliente.c.s
+
+estado.obj: estado.c.obj
+
+.PHONY : estado.obj
+
+# target to build an object file
+estado.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/estado.c.obj
+.PHONY : estado.c.obj
+
+estado.i: estado.c.i
+
+.PHONY : estado.i
+
+# target to preprocess a source file
+estado.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/estado.c.i
+.PHONY : estado.c.i
+
+estado.s: estado.c.s
+
+.PHONY : estado.s
+
+# target to generate assembly for a file
+estado.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/estado.c.s
+.PHONY : estado.c.s
+
+leitor.obj: leitor.c.obj
+
+.PHONY : leitor.obj
+
+# target to build an object file
+leitor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/leitor.c.obj
+.PHONY : leitor.c.obj
+
+leitor.i: leitor.c.i
+
+.PHONY : leitor.i
+
+# target to preprocess a source file
+leitor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/leitor.c.i
+.PHONY : leitor.c.i
+
+leitor.s: leitor.c.s
+
+.PHONY : leitor.s
+
+# target to generate assembly for a file
+leitor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/leitor.c.s
+.PHONY : leitor.c.s
+
+listaProdutos.obj: listaProdutos.c.obj
+
+.PHONY : listaProdutos.obj
+
+# target to build an object file
+listaProdutos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.obj
+.PHONY : listaProdutos.c.obj
+
+listaProdutos.i: listaProdutos.c.i
+
+.PHONY : listaProdutos.i
+
+# target to preprocess a source file
+listaProdutos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.i
+.PHONY : listaProdutos.c.i
+
+listaProdutos.s: listaProdutos.c.s
+
+.PHONY : listaProdutos.s
+
+# target to generate assembly for a file
+listaProdutos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/listaProdutos.c.s
+.PHONY : listaProdutos.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -168,6 +276,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/main.c.s
 .PHONY : main.c.s
 
+produto.obj: produto.c.obj
+
+.PHONY : produto.obj
+
+# target to build an object file
+produto.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/produto.c.obj
+.PHONY : produto.c.obj
+
+produto.i: produto.c.i
+
+.PHONY : produto.i
+
+# target to preprocess a source file
+produto.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/produto.c.i
+.PHONY : produto.c.i
+
+produto.s: produto.c.s
+
+.PHONY : produto.s
+
+# target to generate assembly for a file
+produto.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/produto.c.s
+.PHONY : produto.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,9 +312,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LI3_Project
+	@echo ... cliente.obj
+	@echo ... cliente.i
+	@echo ... cliente.s
+	@echo ... estado.obj
+	@echo ... estado.i
+	@echo ... estado.s
+	@echo ... leitor.obj
+	@echo ... leitor.i
+	@echo ... leitor.s
+	@echo ... listaProdutos.obj
+	@echo ... listaProdutos.i
+	@echo ... listaProdutos.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... produto.obj
+	@echo ... produto.i
+	@echo ... produto.s
 .PHONY : help
 
 

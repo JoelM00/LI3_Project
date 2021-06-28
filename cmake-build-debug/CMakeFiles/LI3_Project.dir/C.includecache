@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/main.c
+C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.c
 stdio.h
+-
+listaProdutos.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/listaProdutos.h
+produto.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+
+C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+malloc.h
+-
+string.h
 -
 
