@@ -195,33 +195,6 @@ catalogoProdutos.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoProdutos.c.s
 .PHONY : catalogoProdutos.c.s
 
-catalogoVendas.obj: catalogoVendas.c.obj
-
-.PHONY : catalogoVendas.obj
-
-# target to build an object file
-catalogoVendas.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj
-.PHONY : catalogoVendas.c.obj
-
-catalogoVendas.i: catalogoVendas.c.i
-
-.PHONY : catalogoVendas.i
-
-# target to preprocess a source file
-catalogoVendas.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.i
-.PHONY : catalogoVendas.c.i
-
-catalogoVendas.s: catalogoVendas.c.s
-
-.PHONY : catalogoVendas.s
-
-# target to generate assembly for a file
-catalogoVendas.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/catalogoVendas.c.s
-.PHONY : catalogoVendas.c.s
-
 cliente.obj: cliente.c.obj
 
 .PHONY : cliente.obj
@@ -275,6 +248,60 @@ estado.s: estado.c.s
 estado.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/estado.c.s
 .PHONY : estado.c.s
+
+faturacao.obj: faturacao.c.obj
+
+.PHONY : faturacao.obj
+
+# target to build an object file
+faturacao.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/faturacao.c.obj
+.PHONY : faturacao.c.obj
+
+faturacao.i: faturacao.c.i
+
+.PHONY : faturacao.i
+
+# target to preprocess a source file
+faturacao.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/faturacao.c.i
+.PHONY : faturacao.c.i
+
+faturacao.s: faturacao.c.s
+
+.PHONY : faturacao.s
+
+# target to generate assembly for a file
+faturacao.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/faturacao.c.s
+.PHONY : faturacao.c.s
+
+filial.obj: filial.c.obj
+
+.PHONY : filial.obj
+
+# target to build an object file
+filial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/filial.c.obj
+.PHONY : filial.c.obj
+
+filial.i: filial.c.i
+
+.PHONY : filial.i
+
+# target to preprocess a source file
+filial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/filial.c.i
+.PHONY : filial.c.i
+
+filial.s: filial.c.s
+
+.PHONY : filial.s
+
+# target to generate assembly for a file
+filial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LI3_Project.dir\build.make CMakeFiles/LI3_Project.dir/filial.c.s
+.PHONY : filial.c.s
 
 leitor.obj: leitor.c.obj
 
@@ -399,15 +426,18 @@ help:
 	@echo ... catalogoProdutos.obj
 	@echo ... catalogoProdutos.i
 	@echo ... catalogoProdutos.s
-	@echo ... catalogoVendas.obj
-	@echo ... catalogoVendas.i
-	@echo ... catalogoVendas.s
 	@echo ... cliente.obj
 	@echo ... cliente.i
 	@echo ... cliente.s
 	@echo ... estado.obj
 	@echo ... estado.i
 	@echo ... estado.s
+	@echo ... faturacao.obj
+	@echo ... faturacao.i
+	@echo ... faturacao.s
+	@echo ... filial.obj
+	@echo ... filial.i
+	@echo ... filial.s
 	@echo ... leitor.obj
 	@echo ... leitor.i
 	@echo ... leitor.s

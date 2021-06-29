@@ -5,7 +5,7 @@ Estado initEstado() {
     Estado e = malloc(sizeof(Estado));
     e->catProd = initCatProd();
     e->catCli = initCatCli();
-    e->catVend = initCatVend();
+    e->vendas = initFaturacao();
     return e;
 }
 
@@ -18,7 +18,7 @@ void addEstadoProd(Estado e, Produto p) {
 }
 
 void addEstadoVend(Estado e, Venda v) {
-    addVenda(e->catVend,v);
+    addVenda(e->vendas,v);
 }
 
 void mostraEstadoProd(Estado e) {
@@ -30,6 +30,5 @@ void mostraEstadoCli(Estado e) {
 }
 
 void mostraEstadoVend(Estado e) {
-    mostraVendas(e->catVend);
+    showFat(e->vendas);
 }
-

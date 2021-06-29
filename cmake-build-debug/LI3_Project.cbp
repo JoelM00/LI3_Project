@@ -86,12 +86,6 @@
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h">
 			<Option target="LI3_Project"/>
 		</Unit>
-		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoVendas.c">
-			<Option target="LI3_Project"/>
-		</Unit>
-		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoVendas.h">
-			<Option target="LI3_Project"/>
-		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/cliente.c">
 			<Option target="LI3_Project"/>
 		</Unit>
@@ -102,6 +96,18 @@
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/estado.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/faturacao.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/faturacao.h">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/filial.c">
+			<Option target="LI3_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/filial.h">
 			<Option target="LI3_Project"/>
 		</Unit>
 		<Unit filename="C:/Users/Joel/Documents/GitHub/LI3_Project/leitor.c">

@@ -1,6 +1,3 @@
-//
-// Created by Joel on 28/06/2021.
-//
 
 #include <stdio.h>
 #include "catalogoClientes.h"
@@ -19,6 +16,6 @@ void addCliente(CatalogoClientes cc, Cliente c) {
 }
 
 void mostraClientes(CatalogoClientes c) {
-    printf("Clientes: %i\n", c->totalClientes);
-
+    for (int i = 0; i<c->totalClientes; i++)
+        printf("Clientes: %s\n", c->clientes[i]->codigo);
 }

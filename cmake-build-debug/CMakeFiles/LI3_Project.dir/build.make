@@ -179,18 +179,31 @@ CMakeFiles/LI3_Project.dir/venda.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/venda.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\venda.c -o CMakeFiles\LI3_Project.dir\venda.c.s
 
-CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj: CMakeFiles/LI3_Project.dir/flags.make
-CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj: ../catalogoVendas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\catalogoVendas.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\catalogoVendas.c
+CMakeFiles/LI3_Project.dir/faturacao.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/faturacao.c.obj: ../faturacao.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/LI3_Project.dir/faturacao.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\faturacao.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\faturacao.c
 
-CMakeFiles/LI3_Project.dir/catalogoVendas.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/catalogoVendas.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\catalogoVendas.c > CMakeFiles\LI3_Project.dir\catalogoVendas.c.i
+CMakeFiles/LI3_Project.dir/faturacao.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/faturacao.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\faturacao.c > CMakeFiles\LI3_Project.dir\faturacao.c.i
 
-CMakeFiles/LI3_Project.dir/catalogoVendas.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/catalogoVendas.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\catalogoVendas.c -o CMakeFiles\LI3_Project.dir\catalogoVendas.c.s
+CMakeFiles/LI3_Project.dir/faturacao.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/faturacao.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\faturacao.c -o CMakeFiles\LI3_Project.dir\faturacao.c.s
+
+CMakeFiles/LI3_Project.dir/filial.c.obj: CMakeFiles/LI3_Project.dir/flags.make
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../filial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LI3_Project.dir/filial.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LI3_Project.dir\filial.c.obj -c C:\Users\Joel\Documents\GitHub\LI3_Project\filial.c
+
+CMakeFiles/LI3_Project.dir/filial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LI3_Project.dir/filial.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joel\Documents\GitHub\LI3_Project\filial.c > CMakeFiles\LI3_Project.dir\filial.c.i
+
+CMakeFiles/LI3_Project.dir/filial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LI3_Project.dir/filial.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joel\Documents\GitHub\LI3_Project\filial.c -o CMakeFiles\LI3_Project.dir\filial.c.s
 
 # Object files for target LI3_Project
 LI3_Project_OBJECTS = \
@@ -202,7 +215,8 @@ LI3_Project_OBJECTS = \
 "CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj" \
 "CMakeFiles/LI3_Project.dir/catalogoClientes.c.obj" \
 "CMakeFiles/LI3_Project.dir/venda.c.obj" \
-"CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj"
+"CMakeFiles/LI3_Project.dir/faturacao.c.obj" \
+"CMakeFiles/LI3_Project.dir/filial.c.obj"
 
 # External object files for target LI3_Project
 LI3_Project_EXTERNAL_OBJECTS =
@@ -215,12 +229,13 @@ LI3_Project.exe: CMakeFiles/LI3_Project.dir/estado.c.obj
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/catalogoProdutos.c.obj
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/catalogoClientes.c.obj
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/venda.c.obj
-LI3_Project.exe: CMakeFiles/LI3_Project.dir/catalogoVendas.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/faturacao.c.obj
+LI3_Project.exe: CMakeFiles/LI3_Project.dir/filial.c.obj
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/build.make
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/linklibs.rsp
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/objects1.rsp
 LI3_Project.exe: CMakeFiles/LI3_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable LI3_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joel\Documents\GitHub\LI3_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable LI3_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LI3_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

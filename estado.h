@@ -7,12 +7,13 @@
 
 #include "catalogoProdutos.h"
 #include "catalogoClientes.h"
-#include "catalogoVendas.h"
+#include "faturacao.h"
+#include "venda.h"
 
 typedef struct estado {
     CatalogoProdutos catProd;
     CatalogoClientes catCli;
-    CatalogoVendas catVend;
+    Faturacao vendas;
 } *Estado;
 
 Estado initEstado();

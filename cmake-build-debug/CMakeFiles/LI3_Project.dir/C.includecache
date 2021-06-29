@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.c
+C:/Users/Joel/Documents/GitHub/LI3_Project/faturacao.c
+malloc.h
+-
 stdio.h
 -
-catalogoProdutos.h
-C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h
+stdbool.h
+-
+faturacao.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/faturacao.h
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/catalogoProdutos.h
-produto.h
-C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/faturacao.h
+venda.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/venda.h
 
-C:/Users/Joel/Documents/GitHub/LI3_Project/produto.h
+C:/Users/Joel/Documents/GitHub/LI3_Project/venda.h
 malloc.h
 -
 string.h
