@@ -7,6 +7,7 @@
 
 #include <malloc.h>
 #include <string.h>
+#include <stdio.h>
 
 
 typedef struct produto {

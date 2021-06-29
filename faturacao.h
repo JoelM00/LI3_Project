@@ -38,7 +38,7 @@ FatME initFatME();
 
 Faturado initFaturado();
 
-void addVenda(Faturacao f,Venda v);
+void addVendaFat(Faturacao f,Venda v);
 
 void showFat(Faturacao f);
 

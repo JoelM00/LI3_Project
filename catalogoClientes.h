@@ -1,10 +1,7 @@
-//
-// Created by Joel on 28/06/2021.
-//
-
 #ifndef LI3_PROJECT_CATALOGOCLIENTES_H
 #define LI3_PROJECT_CATALOGOCLIENTES_H
 
+#include <stdio.h>
 #include "cliente.h"
 
 #define MAX_CLI 200000

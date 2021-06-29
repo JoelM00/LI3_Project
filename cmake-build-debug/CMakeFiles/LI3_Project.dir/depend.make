@@ -18,6 +18,7 @@ CMakeFiles/LI3_Project.dir/estado.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../estado.c
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../faturacao.h
+CMakeFiles/LI3_Project.dir/estado.c.obj: ../filial.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../produto.h
 CMakeFiles/LI3_Project.dir/estado.c.obj: ../venda.h
 
@@ -25,13 +26,19 @@ CMakeFiles/LI3_Project.dir/faturacao.c.obj: ../faturacao.c
 CMakeFiles/LI3_Project.dir/faturacao.c.obj: ../faturacao.h
 CMakeFiles/LI3_Project.dir/faturacao.c.obj: ../venda.h
 
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../catalogoClientes.h
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../cliente.h
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../faturacao.h
 CMakeFiles/LI3_Project.dir/filial.c.obj: ../filial.c
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../filial.h
+CMakeFiles/LI3_Project.dir/filial.c.obj: ../venda.h
 
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../catalogoClientes.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../catalogoProdutos.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../faturacao.h
+CMakeFiles/LI3_Project.dir/leitor.c.obj: ../filial.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../leitor.c
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../produto.h
 CMakeFiles/LI3_Project.dir/leitor.c.obj: ../venda.h
@@ -41,6 +48,7 @@ CMakeFiles/LI3_Project.dir/main.c.obj: ../catalogoProdutos.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../cliente.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../estado.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../faturacao.h
+CMakeFiles/LI3_Project.dir/main.c.obj: ../filial.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../leitor.h
 CMakeFiles/LI3_Project.dir/main.c.obj: ../main.c
 CMakeFiles/LI3_Project.dir/main.c.obj: ../produto.h

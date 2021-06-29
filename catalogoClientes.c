@@ -1,5 +1,4 @@
 
-#include <stdio.h>
 #include "catalogoClientes.h"
 
 CatalogoClientes initCatCli() {

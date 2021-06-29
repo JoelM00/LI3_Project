@@ -12,13 +12,23 @@ int main() {
     Estado e = initEstado();
 
     //leClientes(e,clientes);
-    //leProdutos(e,produtos);
+    leProdutos(e,produtos);
     leVendas(e,vendas);
+
+    //Produto *p = getProductsStartedByLetter(e,'W');
+
+    SalesAndProfit *s = getProductsSalesAndProfit(e,"FO1316",2);
+
+    for (int i = 0; i<MAX_FIL; i++) {
+        printf("%i %f %f\n",s[i]->vendas,s[i]->totalFP,s[i]->totalFN);
+    }
 
     //mostraEstadoCli(e);
 
     //mostraEstadoProd(e);
 
-    mostraEstadoVend(e);
+    //mostraEstadoVend(e);
+    //mostraEstadoFil(e);
+
     return 0;
 }

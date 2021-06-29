@@ -64,7 +64,7 @@ int existeME(FatME *fme,int totalFatME,int mes,char epoca) {
 }
 
 
-void addVenda(Faturacao f,Venda v) {
+void addVendaFat(Faturacao f,Venda v) {
     int x = f->totalVendas++;
     f->vendas[x] = initFatPF();
     FatPF fpf = f->vendas[x];
@@ -77,7 +77,6 @@ void addVenda(Faturacao f,Venda v) {
     fme->faturado[fme->totalFat] = initFaturado();
     fme->faturado[fme->totalFat]->quantidade += v->quantidade;
     fme->faturado[fme->totalFat]->preco += v->preco;
-
 }
 
 void showFat(Faturacao f) {

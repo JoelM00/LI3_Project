@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include "cliente.h"
 
 Cliente initCliente() {
