@@ -6,22 +6,17 @@
 #define MAX_VENDAS 1000000
 
 typedef struct faturado {
+    int mes;
+    int filial;
+    char epoca;
     float preco;
     int quantidade;
 } *Faturado;
 
-typedef struct fatME {
-    int mes;
-    char epoca;
-    Faturado *faturado;
-    int totalFat;
-} *FatME;
-
 typedef struct fatPF {
     char *produto;
-    int filial;
-    FatME *fatMe;
-    int totalFatME;
+    Faturado *faturado;
+    int totalFaturado;
 } *FatPF;
 
 typedef struct faturacao {
@@ -33,8 +28,6 @@ typedef struct faturacao {
 Faturacao initFaturacao();
 
 FatPF initFatPF();
-
-FatME initFatME();
 
 Faturado initFaturado();
 

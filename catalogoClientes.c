@@ -16,5 +16,5 @@ void addCliente(CatalogoClientes cc, Cliente c) {
 
 void mostraClientes(CatalogoClientes c) {
     for (int i = 0; i<c->totalClientes; i++)
-        printf("Clientes: %s\n", c->clientes[i]->codigo);
+        printf("Cliente: %s\n", c->clientes[i]->codigo);
 }

@@ -15,5 +15,7 @@ void addProduto(CatalogoProdutos c, Produto p) {
 }
 
 void mostraProdutos(CatalogoProdutos c) {
-    printf("Produtos: %i\n", c->totalProdutos);
+    for (int i = 0; i<c->totalProdutos; i++) {
+        printf("Produto: %s\n", c->produtos[i]->codigo);
+    }
 }

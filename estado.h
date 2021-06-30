@@ -20,7 +20,7 @@ typedef struct salesAndProfit {
 typedef struct estado {
     CatalogoProdutos catProd;
     CatalogoClientes catCli;
-    Faturacao vendas;
+    Faturacao faturacao;
     Filiais filiais;
 } *Estado;
 

@@ -30,7 +30,7 @@ Compra initCompra() {
     return c;
 }
 
-int existe(Filial *f,int total,int filial) {
+int existeFil(Filial *f,int total,int filial) {
     for (int i = 0; i<total; i++) {
         if (f[i]->filial == filial) return i;
     }
@@ -38,7 +38,7 @@ int existe(Filial *f,int total,int filial) {
 }
 
 void addVendaFil(Filiais f,Venda v) {
-    int x = existe(f->filial,f->totalFilial,v->filial);
+    int x = existeFil(f->filial,f->totalFilial,v->filial);
     if (x == -1) {
         f->filial[f->totalFilial] = initFilial();
         x = f->totalFilial++;

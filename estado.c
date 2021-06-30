@@ -5,7 +5,7 @@ Estado initEstado() {
     Estado e = malloc(sizeof(Estado));
     e->catProd = initCatProd();
     e->catCli = initCatCli();
-    e->vendas = initFaturacao();
+    e->faturacao = initFaturacao();
     e->filiais = initFiliais();
     return e;
 }
@@ -15,6 +15,7 @@ SalesAndProfit initSAP() {
     s->vendas = 0;
     s->totalFN = 0.0f;
     s->totalFP = 0.0f;
+    return s;
 }
 
 void addEstadoCli(Estado e, Cliente c) {
@@ -26,7 +27,7 @@ void addEstadoProd(Estado e, Produto p) {
 }
 
 void addEstadoVend(Estado e, Venda v) {
-    addVendaFat(e->vendas,v);
+    addVendaFat(e->faturacao,v);
     //addVendaFil(e->filiais,v);
 }
 
@@ -39,7 +40,7 @@ void mostraEstadoCli(Estado e) {
 }
 
 void mostraEstadoVend(Estado e) {
-    showFat(e->vendas);
+    showFat(e->faturacao);
 }
 
 void mostraEstadoFil(Estado e) {
@@ -64,26 +65,19 @@ SalesAndProfit* getProductsSalesAndProfit(Estado e,char *produto,int mes) {
     for (int i = 0; i < MAX_FIL; i++) {
         res[i] = initSAP();
     }
-    float aux = 0;
-    for (int i = 0; i<e->vendas->totalVendas; i++) {
-        FatPF fpf = e->vendas->vendas[i];
-        if (!strcmp(fpf->produto,produto)) {
-            res[fpf->filial]->vendas++;
-            int totalFatME = fpf->totalFatME;
-            for (int j = 0; j<totalFatME; j++) {
-                FatME fme = fpf->fatMe[j];
-                if (fme->mes == mes) {
-                    int totalFat = fme->totalFat;
-                    for (int k = 0; k<totalFat; k++) {
-                        Faturado fat = fme->faturado[k];
-                        aux += fat->preco * (float) fat->quantidade;
-                    }
-                    if (fme->epoca == 'N') {
-                        res[fpf->filial]->totalFN += aux;
+    int totalV = e->faturacao->totalVendas;
+    for (int i = 0; i<totalV; i++) {
+        FatPF fpf = e->faturacao->vendas[i];
+        if (!strcmp(produto,fpf->produto)) {
+            int totalFat = fpf->totalFaturado;
+            for (int j = 0; j<totalFat; j++) {
+                Faturado fat = fpf->faturado[j];
+                if (fat->mes == mes) {
+                    if (fat->epoca == 'N') {
+                        res[fat->filial]->totalFN += fat->preco * (float )fat->quantidade;
                     } else {
-                        res[fpf->filial]->totalFP  += aux;
+                        res[fat->filial]->totalFP += fat->preco * (float )fat->quantidade;
                     }
-                    aux = 0;
                 }
             }
         }
