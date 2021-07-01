@@ -17,6 +17,10 @@ public class Venda {
         this.filial = filial;
     }
 
+    public Venda(String venda) {
+        String[] token;
+    }
+
     public String getProduto() {
         return produto;
     }

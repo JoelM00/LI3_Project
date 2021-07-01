@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f3d48c-1a40-4c52-8814-b7dc0d027bbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CatalogoClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CatalogoProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CliProd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FatProd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Faturado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilCli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Filiais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestVendas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Clientes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Faturacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Faturacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Filial.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Venda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Faturacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Faturacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filial.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +56,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/LI3_ProjectJava" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joel\Documents\GitHub\LI3_Project\ProjJava\out\production\LI3_ProjectJava" />
       <recent name="C:\Users\Joel\Documents\GitHub\LI3_Project\ProjJava\out\production" />
       <recent name="C:\Users\Joel\Documents\GitHub\LI3_Project\ProjJava\src" />
       <recent name="C:\Users\Joel\Documents\GitHub\LI3_Project\ProjJava\out" />
@@ -92,8 +109,8 @@
       <workItem from="1625045061895" duration="917000" />
       <workItem from="1625068912128" duration="152000" />
       <workItem from="1625088018586" duration="222000" />
-      <workItem from="1625125922833" duration="2472000" />
-      <workItem from="1625128965785" duration="326000" />
+      <workItem from="1625125922833" duration="2659000" />
+      <workItem from="1625125888098" duration="9496000" />
     </task>
     <servers />
   </component>
