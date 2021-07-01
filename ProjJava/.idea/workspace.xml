@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f3d48c-1a40-4c52-8814-b7dc0d027bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Faturacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Filial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/estado.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/estado.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/CMakeFiles/LI3_Project.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/LI3_Project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/LI3_Project.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/estado.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/estado.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjC/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjC/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -73,13 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +93,7 @@
       <workItem from="1625068912128" duration="152000" />
       <workItem from="1625088018586" duration="222000" />
       <workItem from="1625125922833" duration="2472000" />
+      <workItem from="1625128965785" duration="326000" />
     </task>
     <servers />
   </component>

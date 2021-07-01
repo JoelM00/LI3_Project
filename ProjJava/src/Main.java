@@ -10,7 +10,7 @@ public class Main {
 
 
 
-        l.leClientes("..\\Clientes.txt");
+        l.leClientes("./dados/Clientes.txt");
 
 
     }

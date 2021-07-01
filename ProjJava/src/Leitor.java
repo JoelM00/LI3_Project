@@ -33,7 +33,12 @@ public class Leitor {
     //////////////////////////////////////////////
 
     public void leClientes(String ficheiro) throws IOException {
-        FileInputStream stream = new FileInputStream(ficheiro);
+        FileInputStream stream = null;
+        try {
+            stream = new FileInputStream(ficheiro);
+        } catch (Exception e) {
+            System.out.println("Ficheiro invalido!");
+        }
         InputStreamReader reader = new InputStreamReader(stream);
         BufferedReader br = new BufferedReader(reader);
         String linha = br.readLine();
