@@ -27,9 +27,9 @@ int main() {
 
     //mostraEstadoProd(e);
 
-    mostraEstadoVend(e);
+    //mostraEstadoVend(e);
 
-    //mostraEstadoFil(e);
+    mostraEstadoFil(e);
 
     return 0;
 }

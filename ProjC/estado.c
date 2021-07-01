@@ -27,8 +27,8 @@ void addEstadoProd(Estado e, Produto p) {
 }
 
 void addEstadoVend(Estado e, Venda v) {
-    addVendaFat(e->faturacao,v);
-    //addVendaFil(e->filiais,v);
+    //addVendaFat(e->faturacao,v);
+    addVendaFil(e->filiais,v);
 }
 
 void mostraEstadoProd(Estado e) {
