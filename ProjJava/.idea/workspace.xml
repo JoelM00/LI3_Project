@@ -14,10 +14,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Faturacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Faturacao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Filial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Leitor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LI3_ProjectJava/Venda.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Faturacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Faturacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Filial.java" beforeDir="false" />
@@ -110,7 +109,7 @@
       <workItem from="1625068912128" duration="152000" />
       <workItem from="1625088018586" duration="222000" />
       <workItem from="1625125922833" duration="2659000" />
-      <workItem from="1625125888098" duration="9496000" />
+      <workItem from="1625125888098" duration="10093000" />
     </task>
     <servers />
   </component>
